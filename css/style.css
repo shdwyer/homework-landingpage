@@ -1,7 +1,124 @@
-header h1 {
-  
+body {
   font-family: 'open sans', sans-serif;
-  font-size: 24px;
-  font-weight: extrabold;
-   
+}
+
+header {
+  background: url("../images/header_bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  padding: 40px;
+  height: 600px;
+}
+
+header a{
+  background: #f9e42e;
+  color: black;
+
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: 800;
+  padding: 50px 100px;
+  margin: 0px;
+}
+
+header h2 {
+ font-size: 48px;
+ font-weight: 600;
+ text-align: center;
+}
+
+
+section#benefits{
+  background: white;
+  color: #606161;
+  padding: 40px 200px;
+}
+
+section#benefits h2 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600;
+
+}
+
+section#benefits p {
+  font-size: 26px;
+  font-weight: 300;
+
+}
+
+section#benefits ul {
+  font-size: 26px;
+  font-weight: 300;
+  padding-left: 100px
+}
+
+section#quote {
+  background: url("../images/header_bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px 410px;
+
+}
+section#quote blockquote {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  font-style: italic;
+}
+
+section#quote h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.button {
+  display: block;
+  width: 280px;
+  padding: 12px 0;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+section#cta{
+  background-color: #f9e42e;
+  padding: 30px;
+}
+
+section#cta a{
+  background-color: #033048;
+  color: white;
+}
+
+footer{
+   background-color: #121212;
+   text-align: center;
+   padding: 50px 410px;
+}
+
+footer h1{
+  font-size: 48px;
+  font-weight: 800;
+  color:#f9e42e;
+  margin:0;
+  padding-bottom: 100px;
+}
+
+footer img{
+  padding: 0px 20px;
+}
+
+footer p{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding-top: 100px;
 }
